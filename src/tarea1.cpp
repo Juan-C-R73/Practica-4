@@ -15,7 +15,8 @@ void setup() {
 
   // vector iBeacon de 25 bytes
   uint8_t iBeaconData[25] = {
-    0x4C, 0x00, // Company ID de Apple 
+    //0x4C, 0x00, // Company ID de Apple 
+    0xFF, 0xFF, //cambiado para que pueda verse en la aplicacion
     0x02,       // Para identificar que es un iBeacon
     0x15,       // Longitud restante
     
